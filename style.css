@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 99vw;
+}
+
+
+.container{
+    position: relative;
+    width: 99vw;
+    height: 100vh;
+    opacity: 0.7;
+}
+#nature, #city, #village, #sunrise{
+    width: 99vw;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+#nature{ 
+    background-image: url('images/nature.jpeg');  
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    background: black;
+    padding: 5px;
+    color: white;
+
+}
+#city{
+    background-image: url('images/city.jpg');    
+}
+
+.section{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background: black;
+    height: 30vh;
+    padding: 20px 100px;
+    text-align: center;
+    line-height: 30px;
+}
+.section-heading{
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+.section-desc{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+}
+#village{
+    background-image:url('images/village.jpg');
+}
+
+#sunrise{
+    background-image: url('images/sunrise.jpg');
+}
+
+footer{
+    background: black;
+    color: white;
+    height: 10vh;
+    width: 99vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+footer p{
+    padding-top: 4vh;
+}
